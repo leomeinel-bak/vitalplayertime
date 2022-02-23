@@ -46,9 +46,9 @@ public class CmdSpec {
 		return CmdSpec.getTicks(arg) == null;
 	}
 
-	public static Long getTicks(@NotNull String name) {
+	public static Long getTicks(@NotNull String arg) {
 
-		switch (name) {
+		switch (arg) {
 			case "day" -> {
 				return 0L;
 			}

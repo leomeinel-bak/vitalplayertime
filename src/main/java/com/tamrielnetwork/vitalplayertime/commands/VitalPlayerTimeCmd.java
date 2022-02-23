@@ -62,7 +62,7 @@ public class VitalPlayerTimeCmd implements TabExecutor {
 
 	private void doPlayerTime(@NotNull CommandSender sender, @NotNull String[] args) {
 
-		if (CmdSpec.isInvalidCmd(sender, args[0], "vitalplayertime.set")) {
+		if (CmdSpec.isInvalidCmd(sender, args[0].toLowerCase(), "vitalplayertime.set")) {
 			return;
 		}
 		Player senderPlayer = (Player) sender;
@@ -70,7 +70,7 @@ public class VitalPlayerTimeCmd implements TabExecutor {
 		assert time != null;
 
 		senderPlayer.setPlayerTime(time, false);
-		Chat.sendMessage(sender, ImmutableMap.of("%time%", args[0]), "changed-time");
+		Chat.sendMessage(sender, ImmutableMap.of("%time%", args[0].toLowerCase()), "changed-time");
 
 	}
 
