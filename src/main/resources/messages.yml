@@ -1,4 +1,5 @@
 player-only: "&cThis command can only be executed by players!"
-invalid-option: "&cInvalid option!"
 no-perms: "&7You don't have enough permissions!"
-cmd: ""
+cmd: "cmd"
+changed-time: "Successfully changed your time to %time%"
+reset-time: "Successfully reset your time"

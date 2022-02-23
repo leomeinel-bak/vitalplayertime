@@ -16,42 +16,44 @@
  * along with this program. If not, see https://github.com/TamrielNetwork/VitalPlayerTime/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalcraft;
+package com.tamrielnetwork.vitalplayertime;
 
-import com.tamrielnetwork.vitalcraft.commands.VitalCraftCmd;
-import com.tamrielnetwork.vitalcraft.files.Messages;
+import com.tamrielnetwork.vitalplayertime.commands.VitalPlayerTimeCmd;
+import com.tamrielnetwork.vitalplayertime.files.Messages;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;
 
-public final class VitalCraft extends JavaPlugin {
+public final class VitalPlayerTime extends JavaPlugin {
 
 	private Messages messages;
 
 	@Override
 	public void onEnable() {
 
-		Objects.requireNonNull(getCommand("vitalcraft")).setExecutor(new VitalCraftCmd());
+		Objects.requireNonNull(getCommand("vitalplayertime")).setExecutor(new VitalPlayerTimeCmd());
+		Objects.requireNonNull(getCommand("vitalplayertime")).setTabCompleter(new VitalPlayerTimeCmd());
 
 		saveDefaultConfig();
 
 		messages = new Messages();
 
-		Bukkit.getLogger().info("VitalCraft v" + this.getDescription().getVersion() + " enabled");
+		Bukkit.getLogger().info("VitalPlayerTime v" + this.getDescription().getVersion() + " enabled");
 		Bukkit.getLogger().info("Copyright (C) 2022 Leopold Meinel");
 		Bukkit.getLogger().info("This program comes with ABSOLUTELY NO WARRANTY!");
 		Bukkit.getLogger().info("This is free software, and you are welcome to redistribute it under certain conditions.");
-		Bukkit.getLogger().info("See https://github.com/TamrielNetwork/VitalCraft/blob/main/LICENSE for more details.");
+		Bukkit.getLogger().info("See https://github.com/TamrielNetwork/VitalPlayerTime/blob/main/LICENSE for more details.");
 	}
 
 	@Override
 	public void onDisable() {
 
-		Bukkit.getLogger().info("VitalCraft v" + this.getDescription().getVersion() + " disabled");
+		Bukkit.getLogger().info("VitalPlayerTime v" + this.getDescription().getVersion() + " disabled");
 	}
 
 	public Messages getMessages() {
+
 		return messages;
 	}
 
