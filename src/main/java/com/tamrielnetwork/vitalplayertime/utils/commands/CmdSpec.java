@@ -18,6 +18,7 @@
 
 package com.tamrielnetwork.vitalplayertime.utils.commands;
 
+import com.tamrielnetwork.vitalplayertime.utils.Chat;
 import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
 
@@ -43,7 +44,7 @@ public class CmdSpec {
 		if (Cmd.isNotPermitted(sender, perm)) {
 			return true;
 		}
-		return CmdSpec.getTicks(arg) == null;
+		return isInvalidTime(sender, getTicks(arg));
 	}
 
 	public static Long getTicks(@NotNull String arg) {
@@ -82,6 +83,16 @@ public class CmdSpec {
 	public static List<String> getNames() {
 
 		return new ArrayList<>(Arrays.asList("day", "morning", "noon", "afternoon", "sunset", "night", "midnight", "sunrise"));
+	}
+
+	private static boolean isInvalidTime(@NotNull CommandSender sender, Long getTicks) {
+
+		if (getTicks == null) {
+			Chat.sendMessage(sender, "invalid-time");
+			return true;
+		}
+		return false;
+
 	}
 
 }
