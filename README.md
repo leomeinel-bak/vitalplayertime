@@ -17,7 +17,7 @@
 <h3 align="center">VitalPlayerTime</h3>
 
   <p align="center">
-    Set playertime on Spigot and Paper
+    Change playertime on Spigot and Paper
     <br />
     <a href="https://github.com/TamrielNetwork/VitalPlayerTime"><strong>Explore the docs »</strong></a>
     <br />
@@ -64,8 +64,7 @@
 
 VitalPlayerTime is a Plugin that gives players the ability to change their time.
 
-This plugin is perfect for any server wanting their players to be able to get a look at the server on their preferred
-time.
+This plugin is perfect for any server wanting their players to see the server with their preferred time.
 
 ### Features
 

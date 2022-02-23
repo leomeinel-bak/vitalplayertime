@@ -70,7 +70,7 @@ public class VitalPlayerTimeCmd implements TabExecutor {
 		assert time != null;
 
 		senderPlayer.setPlayerTime(time, false);
-		Chat.sendMessage(sender, ImmutableMap.of("%time%", args[0].toLowerCase()), "changed-time");
+		Chat.sendMessage(sender, ImmutableMap.of("%time%", args[0].toLowerCase()), "set-time");
 
 	}
 
