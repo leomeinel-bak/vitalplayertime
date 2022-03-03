@@ -32,10 +32,8 @@ public final class VitalPlayerTime extends JavaPlugin {
 	@Override
 	public void onEnable() {
 
-		Objects.requireNonNull(getCommand("vitalplayertime")).setExecutor(new VitalPlayerTimeCmd());
-		Objects.requireNonNull(getCommand("vitalplayertime")).setTabCompleter(new VitalPlayerTimeCmd());
-
-		saveDefaultConfig();
+		Objects.requireNonNull(getCommand("ptime")).setExecutor(new VitalPlayerTimeCmd());
+		Objects.requireNonNull(getCommand("ptime")).setTabCompleter(new VitalPlayerTimeCmd());
 
 		messages = new Messages();
 

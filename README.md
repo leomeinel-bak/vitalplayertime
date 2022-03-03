@@ -86,9 +86,9 @@ To get the plugin running on your server follow these simple steps.
 
 1. Permission: `vitalplayertime.set`
 
-* Command: `/vitalplayertime`
+* Command: `/ptime`
 * Description: Reset your playertime
-* Command: `/vitalplayertime <time>`
+* Command: `/ptime <time>`
 * Description: Change your playertime
 
 ### Configuration - config.yml

@@ -6,9 +6,9 @@ authors: [ Tamriel Network ]
 website: https://tamriel.site
 description: Gives players the ability to open a crafting interface.
 commands:
-  vitalplayertime:
+  ptime:
     description: "Main command"
-    usage: "/vitalplayertime"
+    usage: "/ptime"
 permissions:
   vitalplayertime.set:
     description: "Permission to change playertime"
