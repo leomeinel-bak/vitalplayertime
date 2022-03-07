@@ -49,35 +49,18 @@ public class CmdSpec {
 
 	public static Long getTicks(@NotNull String arg) {
 
-		switch (arg) {
-			case "day" -> {
-				return 0L;
-			}
-			case "morning" -> {
-				return 1000L;
-			}
-			case "noon" -> {
-				return 6000L;
-			}
-			case "afternoon" -> {
-				return 9000L;
-			}
-			case "sunset" -> {
-				return 12000L;
-			}
-			case "night" -> {
-				return 14000L;
-			}
-			case "midnight" -> {
-				return 18000L;
-			}
-			case "sunrise" -> {
-				return 23000L;
-			}
-			default -> {
-				return null;
-			}
-		}
+		return switch (arg) {
+			case "day" -> 0L;
+			case "morning" -> 1000L;
+			case "noon" -> 6000L;
+			case "afternoon" -> 9000L;
+			case "sunset" -> 12000L;
+			case "night" -> 14000L;
+			case "midnight" -> 18000L;
+			case "sunrise" -> 23000L;
+			default -> null;
+		};
+
 	}
 
 	public static List<String> getNames() {
