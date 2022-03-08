@@ -33,6 +33,11 @@ public class Chat {
 
 	private static final VitalPlayerTime main = JavaPlugin.getPlugin(VitalPlayerTime.class);
 
+	private Chat() {
+
+		throw new IllegalStateException("Utility class");
+	}
+
 	public static void sendMessage(@NotNull CommandSender player, @NotNull Map<String, String> placeholders, @NotNull String message) {
 
 		List<String> messages = getMessages(message);

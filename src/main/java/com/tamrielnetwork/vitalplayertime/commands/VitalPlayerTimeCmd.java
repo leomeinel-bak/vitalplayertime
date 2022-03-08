@@ -18,7 +18,6 @@
 
 package com.tamrielnetwork.vitalplayertime.commands;
 
-import com.google.common.collect.ImmutableMap;
 import com.tamrielnetwork.vitalplayertime.utils.Chat;
 import com.tamrielnetwork.vitalplayertime.utils.commands.Cmd;
 import com.tamrielnetwork.vitalplayertime.utils.commands.CmdSpec;
@@ -37,7 +36,7 @@ public class VitalPlayerTimeCmd implements TabExecutor {
 	public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
 
 		if (Cmd.isArgsLengthGreaterThan(sender, args, 1)) {
-			return true;
+			return false;
 		}
 		if (args.length == 0) {
 			doPlayerTime(sender);
@@ -70,7 +69,7 @@ public class VitalPlayerTimeCmd implements TabExecutor {
 		assert time != null;
 
 		senderPlayer.setPlayerTime(time, false);
-		Chat.sendMessage(sender, ImmutableMap.of("%time%", args[0].toLowerCase()), "set-time");
+		Chat.sendMessage(sender, java.util.Map.of("%time%", args[0].toLowerCase()), "set-time");
 
 	}
 
