@@ -29,6 +29,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
+import java.util.Map;
 
 public class VitalPlayerTimeCmd implements TabExecutor {
 
@@ -69,7 +70,7 @@ public class VitalPlayerTimeCmd implements TabExecutor {
 		assert time != null;
 
 		senderPlayer.setPlayerTime(time, false);
-		Chat.sendMessage(sender, java.util.Map.of("%time%", args[0].toLowerCase()), "set-time");
+		Chat.sendMessage(sender, Map.of("%time%", args[0].toLowerCase()), "set-time");
 
 	}
 
