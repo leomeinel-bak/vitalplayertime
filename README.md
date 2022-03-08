@@ -45,7 +45,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#commands-and-permissions">Commands and Permissions</a></li>
-        <li><a href="#configuration">Configuration</a></li>
+        <li><a href="#configuration - messages.yml">Configuration</a></li>
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -91,17 +91,15 @@ To get the plugin running on your server follow these simple steps.
 * Command: `/ptime <time>`
 * Description: Change your playertime
 
-### Configuration - config.yml
-
-```
-```
-
 ### Configuration - messages.yml
 
 ```
+cmd: "&fUsage: &b/ptime <time>"
+reset-time: "&fYour time has been reset"
+set-time: "&fTime has been changed to &b%time%"
 player-only: "&cThis command can only be executed by players!"
-no-perms: "&7You don't have enough permissions!"
-cmd: "cmd"
+no-perms: "&cYou don't have enough permissions!"
+invalid-time: "&cInvalid time!"
 ```
 
 <!-- ROADMAP -->
