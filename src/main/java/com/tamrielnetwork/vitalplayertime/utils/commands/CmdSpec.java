@@ -29,12 +29,10 @@ import java.util.List;
 public class CmdSpec {
 
 	private CmdSpec() {
-
 		throw new IllegalStateException("Utility class");
 	}
 
 	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
-
 		if (Cmd.isInvalidSender(sender)) {
 			return true;
 		}
@@ -42,7 +40,6 @@ public class CmdSpec {
 	}
 
 	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String arg, @NotNull String perm) {
-
 		if (Cmd.isInvalidSender(sender)) {
 			return true;
 		}
@@ -53,7 +50,6 @@ public class CmdSpec {
 	}
 
 	public static Long getTicks(@NotNull String arg) {
-
 		return switch (arg) {
 			case "day" -> 0L;
 			case "morning" -> 1000L;
@@ -65,22 +61,17 @@ public class CmdSpec {
 			case "sunrise" -> 23000L;
 			default -> null;
 		};
-
 	}
 
 	public static List<String> getNames() {
-
 		return new ArrayList<>(Arrays.asList("day", "morning", "noon", "afternoon", "sunset", "night", "midnight", "sunrise"));
 	}
 
 	private static boolean isInvalidTime(@NotNull CommandSender sender, Long getTicks) {
-
 		if (getTicks == null) {
 			Chat.sendMessage(sender, "invalid-time");
 			return true;
 		}
 		return false;
-
 	}
-
 }
