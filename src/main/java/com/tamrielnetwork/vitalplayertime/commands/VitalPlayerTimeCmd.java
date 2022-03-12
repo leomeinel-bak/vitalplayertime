@@ -69,8 +69,8 @@ public class VitalPlayerTimeCmd
 	}
 
 	@Override
-	public @Nullable List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command, @NotNull String alias,
-	                                            @NotNull String[] args) {
+	public @Nullable List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command,
+	                                            @NotNull String alias, @NotNull String[] args) {
 		if (args.length == 1) {
 			return CmdSpec.getNames();
 		}

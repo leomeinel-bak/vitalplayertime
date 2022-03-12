@@ -64,7 +64,8 @@ public class CmdSpec {
 	}
 
 	public static List<String> getNames() {
-		return new ArrayList<>(Arrays.asList("day", "morning", "noon", "afternoon", "sunset", "night", "midnight", "sunrise"));
+		return new ArrayList<>(
+				Arrays.asList("day", "morning", "noon", "afternoon", "sunset", "night", "midnight", "sunrise"));
 	}
 
 	private static boolean isInvalidTime(@NotNull CommandSender sender, Long getTicks) {
