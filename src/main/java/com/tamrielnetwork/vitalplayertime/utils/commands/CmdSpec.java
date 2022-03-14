@@ -33,20 +33,11 @@ public class CmdSpec {
 	}
 
 	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
-		if (Cmd.isInvalidSender(sender)) {
-			return true;
-		}
-		return Cmd.isNotPermitted(sender, perm);
+		return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm);
 	}
 
 	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String arg, @NotNull String perm) {
-		if (Cmd.isInvalidSender(sender)) {
-			return true;
-		}
-		if (Cmd.isNotPermitted(sender, perm)) {
-			return true;
-		}
-		return isInvalidTime(sender, getTicks(arg));
+		return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm) || isInvalidTime(sender, getTicks(arg));
 	}
 
 	public static Long getTicks(@NotNull String arg) {
