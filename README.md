@@ -10,7 +10,7 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/TamrielNetwork/VitalPlayerTime">
+  <a href="https://github.com/LeoMeinel/VitalPlayerTime">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -19,14 +19,14 @@
   <p align="center">
     Change playertime on Spigot and Paper
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalPlayerTime"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeoMeinel/VitalPlayerTime"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalPlayerTime">View Demo</a>
+    <a href="https://github.com/LeoMeinel/VitalPlayerTime">View Demo</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalPlayerTime/issues">Report Bug</a>
+    <a href="https://github.com/LeoMeinel/VitalPlayerTime/issues">Report Bug</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalPlayerTime/issues">Request Feature</a>
+    <a href="https://github.com/LeoMeinel/VitalPlayerTime/issues">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -106,7 +106,7 @@ invalid-time: "&cInvalid time!"
 
 ## Roadmap
 
-See the [open issues](https://github.com/TamrielNetwork/VitalPlayerTime/issues) for a list of proposed features (and
+See the [open issues](https://github.com/LeoMeinel/VitalPlayerTime/issues) for a list of proposed features (and
 known issues).
 
 <!-- CONTRIBUTING -->
@@ -136,7 +136,7 @@ Leopold Meinel - [@TamrielN](https://twitter.com/TamrielN) - Twitter
 
 Leopold Meinel - [contact@tamriel.me](mailto:contact@tamriel.me) - eMail
 
-Project Link - [VitalPlayerTime](https://github.com/TamrielNetwork/VitalPlayerTime) - GitHub
+Project Link - [VitalPlayerTime](https://github.com/LeoMeinel/VitalPlayerTime) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -146,26 +146,26 @@ Project Link - [VitalPlayerTime](https://github.com/TamrielNetwork/VitalPlayerTi
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/TamrielNetwork/VitalPlayerTime?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalPlayerTime?style=for-the-badge
 
-[contributors-url]: https://github.com/TamrielNetwork/VitalPlayerTime/graphs/contributors
+[contributors-url]: https://github.com/LeoMeinel/VitalPlayerTime/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/TamrielNetwork/VitalPlayerTime?label=Forks&style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalPlayerTime?label=Forks&style=for-the-badge
 
-[forks-url]: https://github.com/TamrielNetwork/VitalPlayerTime/network/members
+[forks-url]: https://github.com/LeoMeinel/VitalPlayerTime/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/TamrielNetwork/VitalPlayerTime?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalPlayerTime?style=for-the-badge
 
-[stars-url]: https://github.com/TamrielNetwork/VitalPlayerTime/stargazers
+[stars-url]: https://github.com/LeoMeinel/VitalPlayerTime/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/TamrielNetwork/VitalPlayerTime?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalPlayerTime?style=for-the-badge
 
-[issues-url]: https://github.com/TamrielNetwork/VitalPlayerTime/issues
+[issues-url]: https://github.com/LeoMeinel/VitalPlayerTime/issues
 
-[license-shield]: https://img.shields.io/github/license/TamrielNetwork/VitalPlayerTime?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalPlayerTime?style=for-the-badge
 
-[license-url]: https://github.com/TamrielNetwork/VitalPlayerTime/blob/main/LICENSE
+[license-url]: https://github.com/LeoMeinel/VitalPlayerTime/blob/main/LICENSE
 
-[quality-shield]: https://img.shields.io/codefactor/grade/github/TamrielNetwork/VitalPlayerTime?style=for-the-badge
+[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalPlayerTime?style=for-the-badge
 
-[quality-url]: https://www.codefactor.io/repository/github/TamrielNetwork/VitalPlayerTime
+[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalPlayerTime
