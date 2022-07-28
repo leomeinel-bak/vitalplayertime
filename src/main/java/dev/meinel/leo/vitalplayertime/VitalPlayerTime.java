@@ -16,10 +16,10 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalPlayerTime/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalplayertime;
+package dev.meinel.leo.vitalplayertime;
 
-import com.tamrielnetwork.vitalplayertime.commands.VitalPlayerTimeCmd;
-import com.tamrielnetwork.vitalplayertime.files.Messages;
+import dev.meinel.leo.vitalplayertime.commands.VitalPlayerTimeCmd;
+import dev.meinel.leo.vitalplayertime.files.Messages;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 

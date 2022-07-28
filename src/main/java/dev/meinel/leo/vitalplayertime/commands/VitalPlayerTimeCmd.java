@@ -16,11 +16,11 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalPlayerTime/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalplayertime.commands;
+package dev.meinel.leo.vitalplayertime.commands;
 
-import com.tamrielnetwork.vitalplayertime.utils.Chat;
-import com.tamrielnetwork.vitalplayertime.utils.commands.Cmd;
-import com.tamrielnetwork.vitalplayertime.utils.commands.CmdSpec;
+import dev.meinel.leo.vitalplayertime.utils.Chat;
+import dev.meinel.leo.vitalplayertime.utils.commands.Cmd;
+import dev.meinel.leo.vitalplayertime.utils.commands.CmdSpec;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabExecutor;

@@ -16,9 +16,9 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalPlayerTime/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalplayertime.utils.commands;
+package dev.meinel.leo.vitalplayertime.utils.commands;
 
-import com.tamrielnetwork.vitalplayertime.utils.Chat;
+import dev.meinel.leo.vitalplayertime.utils.Chat;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;

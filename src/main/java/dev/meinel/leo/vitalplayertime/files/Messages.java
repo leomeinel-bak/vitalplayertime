@@ -16,9 +16,9 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalPlayerTime/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalplayertime.files;
+package dev.meinel.leo.vitalplayertime.files;
 
-import com.tamrielnetwork.vitalplayertime.VitalPlayerTime;
+import dev.meinel.leo.vitalplayertime.VitalPlayerTime;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
