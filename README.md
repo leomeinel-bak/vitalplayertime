@@ -1,4 +1,5 @@
 <!-- PROJECT SHIELDS -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -68,13 +69,13 @@ This plugin is perfect for any server wanting their players to see the server wi
 
 ### Features
 
-* Change playertime
-* Reset playertime
+- Change playertime
+- Reset playertime
 
 ### Built With
 
-* [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
-* [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
+- [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
+- [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
 
 <!-- GETTING STARTED -->
 
@@ -86,10 +87,10 @@ To get the plugin running on your server follow these simple steps.
 
 1. Permission: `vitalplayertime.set`
 
-* Command: `/ptime`
-* Description: Reset your playertime
-* Command: `/ptime <time>`
-* Description: Change your playertime
+- Command: `/ptime`
+- Description: Reset your playertime
+- Command: `/ptime <time>`
+- Description: Change your playertime
 
 ### Configuration - messages.yml
 
@@ -140,30 +141,19 @@ Project Link - [VitalPlayerTime](https://github.com/LeoMeinel/VitalPlayerTime) -
 
 ### Acknowledgements
 
-* [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
+- [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalPlayerTime?style=for-the-badge
-
 [contributors-url]: https://github.com/LeoMeinel/VitalPlayerTime/graphs/contributors
-
 [forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalPlayerTime?label=Forks&style=for-the-badge
-
 [forks-url]: https://github.com/LeoMeinel/VitalPlayerTime/network/members
-
 [stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalPlayerTime?style=for-the-badge
-
 [stars-url]: https://github.com/LeoMeinel/VitalPlayerTime/stargazers
-
 [issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalPlayerTime?style=for-the-badge
-
 [issues-url]: https://github.com/LeoMeinel/VitalPlayerTime/issues
-
 [license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalPlayerTime?style=for-the-badge
-
 [license-url]: https://github.com/LeoMeinel/VitalPlayerTime/blob/main/LICENSE
-
 [quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalPlayerTime?style=for-the-badge
-
 [quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalPlayerTime
