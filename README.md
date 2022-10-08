@@ -11,7 +11,7 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/LeoMeinel/VitalPlayerTime">
+  <a href="https://github.com/LeoMeinel/vitalplayertime">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,14 +20,14 @@
   <p align="center">
     Change playertime on Spigot and Paper
     <br />
-    <a href="https://github.com/LeoMeinel/VitalPlayerTime"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeoMeinel/vitalplayertime"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/LeoMeinel/VitalPlayerTime">View Demo</a>
+    <a href="https://github.com/LeoMeinel/vitalplayertime">View Demo</a>
     ·
-    <a href="https://github.com/LeoMeinel/VitalPlayerTime/issues">Report Bug</a>
+    <a href="https://github.com/LeoMeinel/vitalplayertime/issues">Report Bug</a>
     ·
-    <a href="https://github.com/LeoMeinel/VitalPlayerTime/issues">Request Feature</a>
+    <a href="https://github.com/LeoMeinel/vitalplayertime/issues">Request Feature</a>
   </p>
 
 <!-- ABOUT THE PROJECT -->
@@ -80,7 +80,7 @@ invalid-time: "&cInvalid time!"
 
 ## Roadmap
 
-See the [open issues](https://github.com/LeoMeinel/VitalPlayerTime/issues) for a list of proposed features (and
+See the [open issues](https://github.com/LeoMeinel/vitalplayertime/issues) for a list of proposed features (and
 known issues).
 
 <!-- CONTRIBUTING -->
@@ -108,7 +108,7 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 
 Leopold Meinel - [leo@meinel.dev](mailto:leo@meinel.dev) - eMail
 
-Project Link - [VitalPlayerTime](https://github.com/LeoMeinel/VitalPlayerTime) - GitHub
+Project Link - [VitalPlayerTime](https://github.com/LeoMeinel/vitalplayertime) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -118,15 +118,15 @@ Project Link - [VitalPlayerTime](https://github.com/LeoMeinel/VitalPlayerTime) -
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalPlayerTime?style=for-the-badge
-[contributors-url]: https://github.com/LeoMeinel/VitalPlayerTime/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalPlayerTime?label=Forks&style=for-the-badge
-[forks-url]: https://github.com/LeoMeinel/VitalPlayerTime/network/members
-[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalPlayerTime?style=for-the-badge
-[stars-url]: https://github.com/LeoMeinel/VitalPlayerTime/stargazers
-[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalPlayerTime?style=for-the-badge
-[issues-url]: https://github.com/LeoMeinel/VitalPlayerTime/issues
-[license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalPlayerTime?style=for-the-badge
-[license-url]: https://github.com/LeoMeinel/VitalPlayerTime/blob/main/LICENSE
-[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalPlayerTime?style=for-the-badge
-[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalPlayerTime
+[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/vitalplayertime?style=for-the-badge
+[contributors-url]: https://github.com/LeoMeinel/vitalplayertime/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/vitalplayertime?label=Forks&style=for-the-badge
+[forks-url]: https://github.com/LeoMeinel/vitalplayertime/network/members
+[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/vitalplayertime?style=for-the-badge
+[stars-url]: https://github.com/LeoMeinel/vitalplayertime/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/vitalplayertime?style=for-the-badge
+[issues-url]: https://github.com/LeoMeinel/vitalplayertime/issues
+[license-shield]: https://img.shields.io/github/license/LeoMeinel/vitalplayertime?style=for-the-badge
+[license-url]: https://github.com/LeoMeinel/vitalplayertime/blob/main/LICENSE
+[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/vitalplayertime?style=for-the-badge
+[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/vitalplayertime
