@@ -2,7 +2,7 @@
  * File: VitalPlayerTime.java
  * Author: Leopold Meinel (leo@meinel.dev)
  * -----
- * Copyright (c) 2022 Leopold Meinel & contributors
+ * Copyright (c) 2023 Leopold Meinel & contributors
  * SPDX ID: GPL-3.0-or-later
  * URL: https://www.gnu.org/licenses/gpl-3.0-standalone.html
  * -----
@@ -30,8 +30,7 @@ public final class VitalPlayerTime
                 .setTabCompleter(new VitalPlayerTimeCmd());
         messages = new Messages();
         Bukkit.getLogger()
-                .info("VitalPlayerTime v" + this.getDescription()
-                        .getVersion() + " enabled");
+                .info("VitalPlayerTime v" + this.getPluginMeta().getVersion() + " enabled");
         Bukkit.getLogger()
                 .info("Copyright (C) 2022 Leopold Meinel");
         Bukkit.getLogger()
@@ -45,8 +44,7 @@ public final class VitalPlayerTime
     @Override
     public void onDisable() {
         Bukkit.getLogger()
-                .info("VitalPlayerTime v" + this.getDescription()
-                        .getVersion() + " disabled");
+                .info("VitalPlayerTime v" + this.getPluginMeta().getVersion() + " disabled");
     }
 
     public Messages getMessages() {
