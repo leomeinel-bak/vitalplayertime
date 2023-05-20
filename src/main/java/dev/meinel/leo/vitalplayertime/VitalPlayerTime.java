@@ -17,26 +17,21 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;
 
-public final class VitalPlayerTime
-        extends JavaPlugin {
+public final class VitalPlayerTime extends JavaPlugin {
 
     private Messages messages;
 
     @Override
     public void onEnable() {
-        Objects.requireNonNull(getCommand("ptime"))
-                .setExecutor(new VitalPlayerTimeCmd());
-        Objects.requireNonNull(getCommand("ptime"))
-                .setTabCompleter(new VitalPlayerTimeCmd());
+        Objects.requireNonNull(getCommand("ptime")).setExecutor(new VitalPlayerTimeCmd());
+        Objects.requireNonNull(getCommand("ptime")).setTabCompleter(new VitalPlayerTimeCmd());
         messages = new Messages();
         Bukkit.getLogger()
                 .info("VitalPlayerTime v" + this.getPluginMeta().getVersion() + " enabled");
-        Bukkit.getLogger()
-                .info("Copyright (C) 2022 Leopold Meinel");
-        Bukkit.getLogger()
-                .info("This program comes with ABSOLUTELY NO WARRANTY!");
-        Bukkit.getLogger()
-                .info("This is free software, and you are welcome to redistribute it under certain conditions.");
+        Bukkit.getLogger().info("Copyright (C) 2022 Leopold Meinel");
+        Bukkit.getLogger().info("This program comes with ABSOLUTELY NO WARRANTY!");
+        Bukkit.getLogger().info(
+                "This is free software, and you are welcome to redistribute it under certain conditions.");
         Bukkit.getLogger()
                 .info("See https://www.gnu.org/licenses/gpl-3.0-standalone.html for more details.");
     }

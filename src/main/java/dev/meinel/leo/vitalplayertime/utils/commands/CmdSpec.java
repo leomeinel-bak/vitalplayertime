@@ -2,7 +2,7 @@
  * File: CmdSpec.java
  * Author: Leopold Meinel (leo@meinel.dev)
  * -----
- * Copyright (c) 2022 Leopold Meinel & contributors
+ * Copyright (c) 2023 Leopold Meinel & contributors
  * SPDX ID: GPL-3.0-or-later
  * URL: https://www.gnu.org/licenses/gpl-3.0-standalone.html
  * -----
@@ -28,8 +28,10 @@ public class CmdSpec {
         return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm);
     }
 
-    public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String arg, @NotNull String perm) {
-        return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm) || isInvalidTime(sender, getTicks(arg));
+    public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String arg,
+            @NotNull String perm) {
+        return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm)
+                || isInvalidTime(sender, getTicks(arg));
     }
 
     public static Long getTicks(@NotNull String arg) {
@@ -47,8 +49,8 @@ public class CmdSpec {
     }
 
     public static List<String> getNames() {
-        return new ArrayList<>(
-                Arrays.asList("day", "morning", "noon", "afternoon", "sunset", "night", "midnight", "sunrise"));
+        return new ArrayList<>(Arrays.asList("day", "morning", "noon", "afternoon", "sunset",
+                "night", "midnight", "sunrise"));
     }
 
     private static boolean isInvalidTime(@NotNull CommandSender sender, Long getTicks) {
