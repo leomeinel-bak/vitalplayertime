@@ -1,4 +1,3 @@
-cmd: "&fUsage: &b/ptime <time>"
 reset-time: "&fYour time has been reset"
 set-time: "&fTime has been changed to &b%time%"
 player-only: "&cThis command can only be executed by players!"

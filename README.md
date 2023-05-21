@@ -68,7 +68,6 @@ To get the plugin running on your server follow these simple steps.
 ### Configuration - messages.yml
 
 ```yaml
-cmd: "&fUsage: &b/ptime <time>"
 reset-time: "&fYour time has been reset"
 set-time: "&fTime has been changed to &b%time%"
 player-only: "&cThis command can only be executed by players!"
